@@ -1,0 +1,13 @@
+package day2;
+
+import java.util.Scanner;
+
+public class firstLetterCaps {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        String result = str.substring(0,1).toUpperCase() + str.substring(1);
+        System.out.println(result);
+
+    }
+}
